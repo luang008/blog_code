@@ -16,7 +16,6 @@ def generate_dist(voca):
     return dist
 
 def naive_sample(size,dist):
-    __name__ = "naive sample method"
     #dist = sorted(dist,reverse=True)
     sample = []
     for i in range(size):
